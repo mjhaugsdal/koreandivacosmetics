@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="t d">
+  <title id="t">Produktbilde placeholder 01</title>
+  <desc id="d">Rosa glam placeholder med nummer 01</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8d6e8"/>
+      <stop offset="100%" stop-color="#b877b0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g)"/>
+  <circle cx="620" cy="180" r="120" fill="#f6d27d" opacity="0.45"/>
+  <text x="50%" y="52%" text-anchor="middle" font-family="Arial, sans-serif" font-size="88" font-weight="700" fill="#331436">DIVA 01</text>
+</svg>
+
