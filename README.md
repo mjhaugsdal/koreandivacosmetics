@@ -58,7 +58,7 @@ Praktiske notater for Webhuset:
 ## Verifisering
 
 - Sjekk DNS med `nslookup koreandivacosmetics.no` og `nslookup www.koreandivacosmetics.no`.
-- Sjekk at **Enforce HTTPS** kan skrus pa i **Settings -> Pages** etter at DNS er riktig.
+- Sjekk at **Enforce HTTPS** kan skrus på i **Settings -> Pages** etter at DNS er riktig.
 - Bekreft at både `https://koreandivacosmetics.no` og `https://www.koreandivacosmetics.no` laster siden.
 
 ## Notat
