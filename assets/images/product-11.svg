@@ -1,14 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="t d">
-  <title id="t">Produktbilde placeholder 11</title>
-  <desc id="d">Silk SPF placeholder med nummer 11</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" role="img">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#fef7dc"/>
-      <stop offset="100%" stop-color="#c9bc7e"/>
+      <stop offset="100%" stop-color="#f5e8c8"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="800" fill="url(#g)"/>
-  <circle cx="625" cy="620" r="140" fill="#816399" opacity="0.3"/>
-  <text x="50%" y="52%" text-anchor="middle" font-family="Arial, sans-serif" font-size="88" font-weight="700" fill="#5a4900">DIVA 11</text>
+  <rect width="200" height="280" fill="url(#bgGrad)"/>
+  <circle cx="160" cy="70" r="12" fill="#816399" opacity="0.2"/>
+  <!-- SPF tube (sunscreen) -->
+  <rect x="70" y="100" width="38" height="90" rx="5" fill="#f5f0e0" stroke="#d9cebe" stroke-width="1.5"/>
+  <ellipse cx="89" cy="100" rx="19" ry="7" fill="#ede4d3"/>
+  <rect x="76" y="85" width="26" height="18" rx="3" fill="#e8dcc8" stroke="#c9b8a3" stroke-width="0.5"/>
+  <rect x="79" y="72" width="20" height="14" fill="#dbd0c0"/>
+  <!-- Text -->
+  <text x="89" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="700" fill="#6b6353">SPF</text>
+  <text x="89" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#8b8373">SILK</text>
+  <!-- Shine -->
+  <ellipse cx="78" cy="125" rx="3" ry="16" fill="white" opacity="0.3"/>
 </svg>
 

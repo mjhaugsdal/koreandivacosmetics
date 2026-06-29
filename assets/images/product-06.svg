@@ -1,14 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="t d">
-  <title id="t">Produktbilde placeholder 06</title>
-  <desc id="d">Mork lilla placeholder med nummer 06</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" role="img">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#a58bd2"/>
-      <stop offset="100%" stop-color="#4b2b65"/>
+      <stop offset="100%" stop-color="#8f79c3"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="800" fill="url(#g)"/>
-  <circle cx="645" cy="180" r="125" fill="#ffd287" opacity="0.4"/>
-  <text x="50%" y="52%" text-anchor="middle" font-family="Arial, sans-serif" font-size="88" font-weight="700" fill="#f6eefc">DIVA 06</text>
+  <rect width="200" height="280" fill="url(#bgGrad)"/>
+  <circle cx="50" cy="60" r="12" fill="#ffd287" opacity="0.4"/>
+  <!-- Primer tube -->
+  <rect x="68" y="105" width="40" height="85" rx="5" fill="#f5e8ff" stroke="#d4c4ea" stroke-width="1.5"/>
+  <ellipse cx="88" cy="105" rx="20" ry="7" fill="#e8dce8"/>
+  <rect x="75" y="92" width="26" height="15" rx="3" fill="#e0d0e5" stroke="#c8b8d4" stroke-width="0.5"/>
+  <rect x="78" y="80" width="20" height="13" fill="#d4c4de"/>
+  <!-- Text -->
+  <text x="88" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="600" fill="#6a4d85">PRIMER</text>
+  <!-- Shine -->
+  <ellipse cx="75" cy="130" rx="3" ry="15" fill="white" opacity="0.3"/>
 </svg>
 

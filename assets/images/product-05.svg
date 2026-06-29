@@ -1,14 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="t d">
-  <title id="t">Produktbilde placeholder 05</title>
-  <desc id="d">Blush placeholder med nummer 05</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" role="img">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#ffd9e8"/>
-      <stop offset="100%" stop-color="#cb82aa"/>
+      <stop offset="100%" stop-color="#f5c8db"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="800" fill="url(#g)"/>
-  <circle cx="160" cy="170" r="125" fill="#ffe2a8" opacity="0.45"/>
-  <text x="50%" y="52%" text-anchor="middle" font-family="Arial, sans-serif" font-size="88" font-weight="700" fill="#4a1d35">DIVA 05</text>
+  <rect width="200" height="280" fill="url(#bgGrad)"/>
+  <circle cx="150" cy="60" r="13" fill="#ffe2a8" opacity="0.3"/>
+  <!-- Glass toner bottle -->
+  <rect x="72" y="100" width="56" height="100" rx="4" fill="#fff5f9" stroke="#e8c9d9" stroke-width="1.5"/>
+  <ellipse cx="100" cy="100" rx="28" ry="8" fill="#f5e5f0"/>
+  <path d="M 72 100 L 72 190 Q 72 195 76 198 L 124 198 Q 128 195 128 190 L 128 100" fill="#fffbfd" opacity="0.7"/>
+  <!-- Neck -->
+  <rect x="82" y="82" width="36" height="20" fill="#f5e5f0" stroke="#d4b8c8" stroke-width="0.5"/>
+  <ellipse cx="100" cy="82" rx="18" ry="5" fill="#e8d4e0"/>
+  <rect x="87" y="72" width="26" height="12" fill="#f0dce8"/>
+  <!-- Label -->
+  <text x="100" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#a84d7a">TONER</text>
+  <ellipse cx="85" cy="120" rx="5" ry="18" fill="white" opacity="0.25"/>
 </svg>
 

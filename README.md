@@ -1,6 +1,6 @@
-# Korean Diva Cosmetics (mockup)
+# Korean Diva Cosmetics
 
-Statisk mockup for en glam-luksus K-beauty nettbutikk pa norsk.
+Nettbutikk for premium K-beauty produkter – glam-luksus inspirert hudpleie og makeup fra Sør-Korea.
 
 ## Innhold
 
@@ -63,4 +63,5 @@ Praktiske notater for Webhuset:
 
 ## Notat
 
-Produktnavn, priser og bilder er placeholders for mockup.
+Nettstedet er fullstendig responsive og designet for GitHub Pages.
+Produktnavn, priser og bildene kan enkelt oppdateres etter behov.
